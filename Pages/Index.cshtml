@@ -1,0 +1,166 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class=" banner-section">
+    @* <img src="/images/profile.jpg" alt="banner" /> *@
+    <div class="banner-text">Hi, I am <span>&lt;/Sathish&gt;</span></div>
+    <h1>Full-stack developer</h1>
+    <p>A dedicated Full Stack Web Developer from Chennai with expertise in .NET, WordPress, React, MySQL, PostgreSQL, and a strong foundation in Java with Selenium and C#.</p>
+</div>
+<img width="100%" height="100%" src="/images/seperate.svg" alt="seperate" />
+<section class="about-section">
+    <div class="about-container">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About me</h2>
+                <p>A dedicated Full Stack Web Developer based in Chennai. With two years of industry experience, I specialize in a diverse range of technologies and frameworks, including .NET, WordPress, React, and backend development with MySQL and PostgreSQL. My educational background includes comprehensive training in Java with Selenium and a certification in C#, providing me with a robust foundation in both front-end and back-end development.</p>
+                <a href="#" class="contact-btn">Contact Me</a>
+            </div>
+            <div class="about-image">
+                <img src="/images/sathish.png" class="profile-photo" alt="Profile Photo" />
+            </div>
+        </div>
+    </div>
+</section>
+<section class="skills-section">
+    <div class="container">
+        <h2 class="section-title">Skill set</h2>
+        <p class="section-subtitle">Check out my skill by categories</p>
+        
+        <div class="skills-container">
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="frontend">Frontend</button>
+                <button class="tab-btn" data-tab="backend">Backend</button>
+                <button class="tab-btn" data-tab="cms">CMS</button>
+                <button class="tab-btn" data-tab="devops">DevOps</button>
+            </div>
+            
+            <div class="skills-content">
+                <div class="tab-content active" id="frontend">
+                    <h3>Technologies Known for frontend</h3>
+                    <div class="skill-icons">
+                        <div class="skill-icon">
+                            <img src="/images/html.svg" alt="HTML" title="HTML">
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill-icon">
+                            <img src="/images/css.svg" alt="CSS" title="CSS">
+                            <span>CSS</span>
+                        </div>
+                        <div class="skill-icon">
+                            <img src="/images/javascript.svg" alt="JavaScript" title="JavaScript">
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-icon">
+                            <img src="/images/sass.svg" alt="SCSS" title="SCSS">
+                            <span>SCSS</span>
+                        </div>
+                        <div class="skill-icon">
+                            <img src="/images/jquery.svg" alt="jQuery" title="jQuery">
+                            <span>jQuery</span>
+                        </div>
+                        <div class="skill-icon">
+                            <img src="/images/typescript.svg" alt="TypeScript" title="TypeScript">
+                            <span>TypeScript</span>
+                        </div>
+                        <div class="skill-icon">
+                            <img src="/images/bootstrap.svg" alt="Bootstrap" title="Bootstrap">
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Add similar structures for other tabs -->
+                <div class="tab-content" id="backend">
+                                     <h3>Technologies Known for Backend</h3>
+                    <div class="skill-icons">
+                        <div class="skill-icon">
+                            <img src="/images/html.svg" alt="HTML" title="HTML">
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill-icon">
+                            <img src="/images/css.svg" alt="CSS" title="CSS">
+                            <span>CSS</span>
+                        </div>
+                        <div class="skill-icon">
+                            <img src="/images/javascript.svg" alt="JavaScript" title="JavaScript">
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="cms">
+                    <!-- CMS content -->
+                </div>
+                <div class="tab-content" id="devops">
+                    <!-- DevOps content -->
+                </div>
+                   <a href="#" class="view-projects">View Projects <span>→</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="experience-section">
+ <div class="container">
+    <h2>Experience</h2>
+    <p>Here is a quick summary of my most recent experience</p>
+    <div class="experience-column">
+        <div class="experience-item">
+            <div class="Title">Full-stack developer at</div>
+           <img width="150px" height="36" alt="company logo" src="https://cdn.syncfusion.com/content/images/Logo/Logo_150dpi.png" /> </img>
+           <div class="duration">June 2022 - Present</div>
+        </div>
+        <div class="location-row">
+            <div class="location-text"><img alt="locatin-icon" src="/images/Pin.svg"></img>Chennai, Tamilnadu</div>
+           <a class="company-url" href="https://www.syncfusion.com"><img alt="locatin-icon" src="/images/link-icon.svg"></img>www.syncfusion.com</a>
+        </div>
+          <div class="about-company">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+    </div>
+  
+ </div>
+</section>
+<section class="project-section">
+    <div class="container">
+    <h2>Projects</h2>
+        <div class="descrpition"><p>Here are some of my projects I have done so far</p> <a href="#" class="view-projects">View Projects <span>→</span></a></div>
+      <div class="project-cards">
+    <div class="project-card">
+       <img width="100%" height="auto" src="/images/profile.jpg" alt="banner" />
+       <div class="project-details">
+      <h3>Project Title</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a href="#">View Project <span>→</span></a>
+      </div>
+    </div>
+    <div class="project-card">
+     <img width="100%" height="auto" src="/images/profile.jpg" alt="banner" />
+         <div class="project-details">
+      <h3>Project Title</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a href="#">View Project <span>→</span></a>
+    </div>
+    </div>
+    <div class="project-card">
+        <img width="100%" height="auto" src="/images/profile.jpg" alt="banner" />
+         <div class=" project-details">
+      <h3>Project Title</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a href="#">View Project <span>→</span></a>
+    </div>
+    </div>
+    </div>
+  </div>
+</section>
+<section class="contact-section">
+<div class="container">
+<div class="contact-details">
+    <div class="header">
+<h3>Have a project in Mind?</h3>
+<p>Let's schedule a time to chat. Please contact me if you have any questions.</p>
+</div>
+<div class="contact-btn"><a href="#">Contact Me</a></div>
+</div>
+</div>
+</section>
